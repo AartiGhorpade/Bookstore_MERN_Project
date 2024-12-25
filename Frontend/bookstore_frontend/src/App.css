@@ -1,0 +1,36 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", serif;
+    font-weight: 500;
+}
+
+:root {
+    --common-bg-color: rgb(47, 6, 61);
+    --common-white-color: white
+}
+
+.input-box-hover-effect:focus {
+    box-shadow: none;
+}
+
+section {
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+.main-title {
+    font-size: 32px;
+    font-weight: 800;
+}
+
+body {
+    padding-top: 70px;
+}
+
+.login-btn,
+.login-btn:hover {
+    background-color: var(--common-bg-color);
+    color: var(--common-white-color);
+}

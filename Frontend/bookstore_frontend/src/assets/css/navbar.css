@@ -6,4 +6,25 @@
 .navbar-brand {
     font-size: 24px;
     font-weight: 900;
+    color: var(--common-white-color) !important;
+}
+
+.nav-link {
+    color: var(--common-white-color) !important
+}
+
+.navbar-light .navbar-toggler {
+    border: none;
+}
+
+.navbar-light .navbar-toggler:focus {
+    border: none;
+}
+
+.navbar {
+    background-color: var(--common-bg-color);
+}
+
+.navbar-light .navbar-toggler-icon {
+    filter: brightness(0) invert(1);
 }

@@ -1,0 +1,82 @@
+[
+    {
+        "id": 1,
+        "booktype": "story books",
+        "title": "Alice in Wonderland",
+        "price": 0,
+        "category": "Free",
+        "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books_23-2149342941.jpg?t=st=1735123288~exp=1735126888~hmac=247b631105113ac571fb74dd2681155a36d80397918c30299103662b31b48f8c&w=740"
+    },
+    {
+        "id": 2,
+        "booktype": "science books",
+        "title": "scientific discoveries",
+        "price": 10,
+        "category": "Paid",
+        "image": "https://img.freepik.com/free-vector/gradient-stack-books-illustration_23-2149327718.jpg?t=st=1735123861~exp=1735127461~hmac=a28a6fcb9fd9612e257da6b4e91dd5fb8e50836d4865546414ad97a1f86cb0c3&w=740"
+    },
+    {
+        "id": 3,
+        "booktype": "history books",
+        "title": "ancient civilizations",
+        "price": 300,
+        "category": "Free",
+        "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?t=st=1735122946~exp=1735126546~hmac=50c2cc0489b98e64283d94d8338d7ef30c2bcf443ed53bcd2ee7b97546b9c43d&w=740"
+    },
+    {
+        "id": 4,
+        "booktype": "math books",
+        "title": "algebra basics",
+        "price": 250,
+        "category": "Paid",
+        "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books_23-2149342941.jpg?t=st=1735123288~exp=1735126888~hmac=247b631105113ac571fb74dd2681155a36d80397918c30299103662b31b48f8c&w=740"
+    },
+    {
+        "id": 5,
+        "booktype": "programming books",
+        "title": "learn Python",
+        "price": 200,
+        "category": "Paid",
+        "image": "https://img.freepik.com/free-vector/gradient-stack-books-illustration_23-2149327718.jpg?t=st=1735123861~exp=1735127461~hmac=a28a6fcb9fd9612e257da6b4e91dd5fb8e50836d4865546414ad97a1f86cb0c3&w=740"
+    },
+    {
+        "id": 6,
+        "booktype": "art books",
+        "title": "painting techniques",
+        "price": 0,
+        "category": "Free",
+        "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?t=st=1735122946~exp=1735126546~hmac=50c2cc0489b98e64283d94d8338d7ef30c2bcf443ed53bcd2ee7b97546b9c43d&w=740"
+    },
+    {
+        "id": 7,
+        "booktype": "cooking books",
+        "title": "gourmet recipes",
+        "price": 250,
+        "category": "Paid",
+        "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books_23-2149342941.jpg?t=st=1735123288~exp=1735126888~hmac=247b631105113ac571fb74dd2681155a36d80397918c30299103662b31b48f8c&w=740"
+    },
+    {
+        "id": 8,
+        "booktype": "biography books",
+        "title": "life of Einstein",
+        "price": 180,
+        "category": "Paid",
+        "image": "https://img.freepik.com/free-vector/gradient-stack-books-illustration_23-2149327718.jpg?t=st=1735123861~exp=1735127461~hmac=a28a6fcb9fd9612e257da6b4e91dd5fb8e50836d4865546414ad97a1f86cb0c3&w=740"
+    },
+    {
+        "id": 9,
+        "booktype": "self-help books",
+        "title": "positive thinking",
+        "price": 120,
+        "category": "Paid",
+        "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?t=st=1735122946~exp=1735126546~hmac=50c2cc0489b98e64283d94d8338d7ef30c2bcf443ed53bcd2ee7b97546b9c43d&w=740"
+    },
+    {
+        "id": 10,
+        "booktype": "travel books",
+        "title": "exploring Europe",
+        "price": 220,
+        "category": "Free",
+        "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books_23-2149342941.jpg?t=st=1735123288~exp=1735126888~hmac=247b631105113ac571fb74dd2681155a36d80397918c30299103662b31b48f8c&w=740"
+    }
+]
