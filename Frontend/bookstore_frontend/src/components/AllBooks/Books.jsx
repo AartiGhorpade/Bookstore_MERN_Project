@@ -1,12 +1,24 @@
-import booksData from '../../../public/json/freeBook.json'
-
+import { useEffect, useState } from 'react'
+import axios from 'axios'
 
 const Books = () => {
+    const [booksData, setBooksData] = useState([])
+    useEffect(() => {
+
+        const fetchedData = async () => {
+            try {
+                const res = await axios.get('http://localhost:4001/books')
+                setBooksData(res.data)
+            } catch (e) {
+                console.log(e);
+            }
+        }
+        fetchedData()
+    }, [])
+
     return (
         <section>
             <div className='container'>
-
-
                 <div>
                     <div className="row">
                         {

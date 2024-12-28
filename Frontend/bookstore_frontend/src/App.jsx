@@ -4,8 +4,9 @@ import SignUp from './components/Authentications/SignUp';
 import ContactUs from './components/ContactUs';
 import Home from './components/Home';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-
+import { Toaster } from 'react-hot-toast';
 const App = () => {
+
   return (
     <Router>
       <Routes>
@@ -14,6 +15,7 @@ const App = () => {
         <Route path='/signup' element={<SignUp />} />
         <Route path='/contactus' element={<ContactUs />} />
       </Routes>
+      <Toaster />
     </Router>
   );
 }

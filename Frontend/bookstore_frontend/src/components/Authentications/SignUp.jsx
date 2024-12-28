@@ -2,12 +2,31 @@ import { useState } from "react";
 import Login from "./Login";
 import { Link } from "react-router-dom";
 import { useForm } from "react-hook-form";
-
+import axios from "axios";
+import toast from 'react-hot-toast'
 
 const SignUp = () => {
     const [showLogin, setShowLogin] = useState(false);
     const { register, handleSubmit, formState: { errors } } = useForm();
-    const onSubmit = data => console.log(data);
+    const onSubmit = async (data) => {
+        const userInfo = {
+            name: data.name,
+            email: data.email,
+            password: data.password
+        }
+
+        await axios.post('http://localhost:4001/user/signup', userInfo).then((result) => {
+            if (result.status === 201) {
+                toast.success("User created successfully")
+                toggleLoginModal()
+            }
+
+        }).catch((e) => {
+            if (e.response) {
+                toast.error(e.response.data.message)
+            }
+        })
+    };
     function toggleLoginModal() {
         setShowLogin(!showLogin);
     }

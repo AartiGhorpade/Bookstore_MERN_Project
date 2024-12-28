@@ -1,17 +1,31 @@
-import { useState } from "react";
-import { Link } from "react-router-dom";
+
 import { useForm } from "react-hook-form";
 import Navbar from "./Navbar";
 import Footer from "./Footer";
+import axios from "axios";
+import toast from "react-hot-toast";
 
 
 const ContactUs = () => {
-    const [showLogin, setShowLogin] = useState(false);
-    const { register, handleSubmit, formState: { errors } } = useForm();
-    const onSubmit = data => console.log(data);
-    function toggleLoginModal() {
-        setShowLogin(!showLogin);
-    }
+    const { register, handleSubmit, formState: { errors }, reset } = useForm();
+    const onSubmit = async (data) => {
+
+        const contactDetails = {
+            name: data.name,
+            email: data.email,
+            message: data.message
+        }
+
+        await axios.post('http://localhost:4001/contact/contact', contactDetails).then((result) => {
+            console.log(result);
+            if (result.status === 201) {
+                toast.success(result.data.message)
+                reset();
+            }
+        }).catch((e) => {
+            toast.error("Please try again later")
+        })
+    };
     return (
 
         <>

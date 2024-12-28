@@ -1,5 +1,6 @@
 footer {
     background-color: var(--common-bg-color);
     color: var(--common-white-color);
-    padding: 14px 0 0 0
+    padding: 14px 0 0 0;
+    margin-top: auto;
 }

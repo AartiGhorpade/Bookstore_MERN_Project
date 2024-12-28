@@ -27,10 +27,17 @@ section {
 
 body {
     padding-top: 70px;
+    height: 100%;
 }
 
 .login-btn,
 .login-btn:hover {
     background-color: var(--common-bg-color);
     color: var(--common-white-color);
+}
+
+#root {
+    display: flex;
+    flex-direction: column;
+    min-height: 87vh;
 }
